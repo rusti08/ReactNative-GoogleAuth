@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { View, Text, Button, StyleSheet, Image, Alert } from 'react-native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-
 export default function HomeScreen({ navigation }) {
   const [userInfo, setUserInfo] = useState(null);
 
